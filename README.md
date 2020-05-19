@@ -55,6 +55,16 @@ const examinations = function(e) {
 })
 ```
 
+### folders
+
+```javascript
+const examinations = function(e) {
+  e.topic('Folders', (checkout) => {
+    checkout.folder('someFolder').isPresent()
+  })
+})
+```
+
 ## Development
 
 Clone the repository
