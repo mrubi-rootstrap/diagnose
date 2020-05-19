@@ -1,0 +1,15 @@
+{
+	"all": true,
+	"include": ["lib/*"],
+	"exclude": [
+        "*/sourceCode/**",
+        "*/utilitiesConfig/**",
+        "*/node_modules/**"
+    ],
+	"per-file": true,
+	"check-coverage": true,
+	"compact": false,
+	"reporter": "html",
+	"skip-full": true,
+	"clean": true
+}

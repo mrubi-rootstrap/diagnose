@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  diagnose-development:
+    image: node:12.16
+    container_name: diagnose-development
+    working_dir: /usr/src/app
+    volumes:
+      - node_modules:/usr/src/app/node_modules
+volumes:
+  node_modules: {}
