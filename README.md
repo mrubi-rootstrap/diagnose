@@ -44,6 +44,17 @@ const examinations = function(e) {
 })
 ```
 
+### files
+
+```javascript
+const examinations = function(e) {
+  e.topic('Files', (checkout) => {
+    checkout.file('someFolder/someFile').isPresent()
+    checkout.file('someOtherFolder/someFile').isNotEmpty()
+  })
+})
+```
+
 ## Development
 
 Clone the repository
