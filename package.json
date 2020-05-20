@@ -1,8 +1,8 @@
 {
   "name": "diagnose",
   "version": "0.0.1",
-  "description": "Utilities to detect and diagnose missconfigurations of an application",
-  "main": "index.js",
+  "description": "Utilities to detect and diagnose miss-configurations of an application",
+  "main": "lib/index.js",
   "dependencies": {},
   "devDependencies": {
     "chai": "^4.2.0",
